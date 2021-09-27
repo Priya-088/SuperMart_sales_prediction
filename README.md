@@ -1,13 +1,17 @@
-# BigMart Sales Prediction Analysis - Regression
+# Sales Analysis and Prediction
 
-**Complete Video Tutorial:** https://youtu.be/CD58mco2XqA
+## Regression Analysis
 
-# Dataset Information
+![Screenshot Predict](https://datahack-prod.s3.ap-south-1.amazonaws.com/__sized__/contest_cover/final-grocery--cover-thumbnail-1200x1200.png)
+
+
+# Information about the Data
 
 The data scientists at BigMart have collected 2013 sales data for 1559 products across 10 stores in different cities. Also, certain attributes of each product and store have been defined. The aim is to build a predictive model and find out the sales of each product at a particular store.
 
 Using this model, BigMart will try to understand the properties of products and stores which play a key role in increasing sales.
 
+**Find Data here:** https://www.kaggle.com/devashish0507/big-mart-sales-prediction
 
 Variable | Description
 ----------|--------------
@@ -24,7 +28,7 @@ Outlet_Location_Type | The type of city in which the store is located
 Outlet_Type | Whether the outlet is just a grocery store or some sort of supermarket
 Item_Outlet_Sales | Sales of the product in the particulat store. This is the outcome variable to be predicted.
 
-**Download link:** https://www.kaggle.com/devashish0507/big-mart-sales-prediction
+
 
 # Libraries
 
@@ -33,7 +37,7 @@ Item_Outlet_Sales | Sales of the product in the particulat store. This is the ou
 <li>seaborn
 <li>scikit-learn
 
-# Algorithms
+# Algorithms 
 
 <li>Linear Regression
 <li>Ridge
@@ -42,6 +46,5 @@ Item_Outlet_Sales | Sales of the product in the particulat store. This is the ou
 <li>Random Forest
 <li>Extra Tress
   
-**Mean Squared Error:** 0.28
+**Mean Squared Error:** 0.28, where Linear Regression gives the best result.
 
-**Note:** The Error metric is in log values. To convert to original values, use exponentiation.
